@@ -54,7 +54,7 @@ EOF
 
 ### Build image using Docker 
 ```
-time DOCKER_BUILDKIT=0 docker build -t sahil1999/nodejsapp .
+time DOCKER_BUILDKIT=1 docker build -t sahil1999/nodejsapp .
 ```
 
 ### Build image using nerdctl(containerd)
